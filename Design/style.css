@@ -1,0 +1,38 @@
+*{
+border: 0;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.topnav {
+    position: relative;
+    background-color: #ecd4ef;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0px ;
+    text-align: center;
+}
+
+.topnav a{
+    float: inline-block;;
+    color: rgb(177, 125, 184);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 21px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.topnav a:hover{
+    background-color: rgb(243, 208, 214);
+}
+
+.topnav-centered a{
+    float: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
